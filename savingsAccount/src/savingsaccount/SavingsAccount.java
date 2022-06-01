@@ -4,8 +4,22 @@ import java.util.Scanner;
 
 public class SavingsAccount {
 
-    public static void main(String[] args) {
-        // TODO code application logic here
-        
+    private double balance = 0;
+    private double interestRate = 0;
+
+    public void setInterestRate() {
+        this.interestRate = interestRate;
+    }
+
+    public void setBalance() {
+        this.balance = balance;
+    }
+
+    public double getBalance() {
+        return this.balance;
+    }
+
+    public void growAccount() {
+
     }
 }
